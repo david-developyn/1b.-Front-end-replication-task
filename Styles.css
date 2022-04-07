@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#Header {
+    height: 100px;
+    width: 100%;
+    background-color: lightgreen;
+}
+
+.Outer {
+    width: 33%;
+    float: left;
+    border-style: solid;
+}
+
+.Inner {
+    height: 300px;
+    margin: 1rem;
+    border-style: solid;
+}
+
+@media only screen and (max-width: 768px) {
+    .Outer {
+        width: 100%;
+    }
+}
